@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sai Nagar Ganesh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/one.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">DONATIONS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Sri Sai Nagar Youth Association Ganesh</h1>
+            <p>Lord Ganapathi, also described as Ganesha, is a very popular and revered Hindu deity and perphaps the most worshipped God in India. People mostly worship him seeking success in endeavors(siddhi) and intelligence. (buddhi). He also symbolizes wealth, wisdom, and happiness. He is worshipped before any venture or journey is embarked upon. Lord Ganapathi, having a curled trunk, one tusk partly broken, large ears, a massive body, four arms, and the radiance of hundreds of suns, elimintates all obstacles that impede success.</p>
+            <a href="contact.html" class="hero-btn">Contact us to know more</a>
+        </div>
+    
+    </section>
+    
+<!---------course---------->
+    <section class="course">
+        <h1>About Committee</h1>
+        <h4>The leader of this commitee is Tillu - Tillu Thopu Dammunte Aapu</h4>
+    </section>
+    
+<!----------facilities--------->
+    <section class="facilities">
+        <div class="facilities-col">
+            <img src="images/pooja.jpg">
+            <h3>Pooja</h3>
+            <p>Priest performing pooja</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/chants.jpg">
+            <h3>Laddoo</h3>
+            <p>Devotees auctioning laddoo</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/anna.jpg">
+            <h3>Nimarjanam</h3>
+            <p>Ganpati bappa morya</p>
+        </div>
+    </section>
+<!---------footer---------->
+    <section class="footer">
+        <h4>Address</h4>
+        <h6>Sai nagar colony, Tukkuguda, Hyderabad.</h6>
+        <div class="wrapper">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+<!---------script---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
